@@ -27,7 +27,7 @@ app.get('/products/:pid', async (req,res) =>{
       const productId = parseInt(req.params.pid)
       const products = await ProductManager.getProductById(productId);
       if(products){
-        res.json(productos)
+        res.json(products)
       }
       else{
         res.status(404).json({error: 'Producto no encontrado'})
