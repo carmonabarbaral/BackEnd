@@ -87,28 +87,30 @@ class ProductManager {
 }
 
 // Crear una instancia de ProductManager
-const productManager = new ProductManager('productos.json');
+const productManager = new ProductManager('../productos.json');
 
-// Ejemplo de uso:
-async function ejemplo() {
-  await productManager.addProduct({
-    title: 'Tarta de manzana',
-    description: 'Deliciosa tarta de manzana',
-    price: 1200,
-    thumbnail: 'tarta_manzana.jpg',
-    code: 'BC001',
-    stock: 10
-  });
+//Ejemplo de uso:
+//async function ejemplo() {
+//await productManager.addProduct({
+// title: 'Tarta de manzana',
+//description: 'Deliciosa tarta de manzana',
+//price: 1200,
+// thumbnail: 'tarta_manzana.jpg',
+//code: 'BC001',
+ //stock: 10
+//});
 
-  const productos = await productManager.getProducts();
-  console.log(productos);
+  //const productos = await productManager.getProducts();
+  //console.log(productos);
 
-  const producto = await productManager.getProductById(1);
-  console.log(producto);
+  //const producto = await productManager.getProductById(1);
+  //console.log(producto);
 
-  await productManager.updateProduct(1, { price: 1500 });
+  //await productManager.updateProduct(1, { price: 1500 });
 
-  await productManager.deleteProduct(1);
-}
+  //await productManager.deleteProduct(1);
+//}
 
-ejemplo();
+//ejemplo();
+
+module.exports = new ProductManager('../productos.json');

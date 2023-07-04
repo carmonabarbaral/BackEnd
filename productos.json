@@ -1,1 +1,112 @@
-[]
+[
+    {
+        "title": "Tarta de manzana",
+        "description": "Deliciosa tarta de manzana",
+        "price": 1200,
+        "thumbnail": "tarta_manzana.jpg",
+        "code": "BC001",
+        "stock": 10,
+        "fecha": "2023-06-09",
+        "id": 1
+    },
+    {
+        "title": "Croissant",
+        "description": "Croissant relleno de jamón y queso",
+        "price": 800,
+        "thumbnail": "croissant_chocolate.jpg",
+        "code": "BC002",
+        "stock": 20,
+        "fecha": "2023-06-09",
+        "id": 2
+    },
+    {
+        "title": "Cupcake de vainilla",
+        "description": "Cupcake de vainilla con cobertura de chocolate",
+        "price": 600,
+        "thumbnail": "cupcake_vainilla.jpg",
+        "code": "BC003",
+        "stock": 15,
+        "fecha": "2023-06-09",
+        "id": 3
+    },
+    {
+        "title": "Donut glaseado",
+        "description": "Donut con glaseado de colores",
+        "price": 450,
+        "thumbnail": "donut_glaseado.jpg",
+        "code": "BC004",
+        "stock": 30,
+        "fecha": "2023-06-09",
+        "id": 4
+    },
+    {
+        "title": "Pastel de chocolate",
+        "description": "Delicioso pastel de chocolate",
+        "price": 1500,
+        "thumbnail": "pastel_chocolate.jpg",
+        "code": "BC005",
+        "stock": 12,
+        "fecha": "2023-06-09",
+        "id": 5
+    },
+    {
+        "title": "Galletas de avena",
+        "description": "Galletas saludables de avena y pasas",
+        "price": 500,
+        "thumbnail": "galletas_avena.jpg",
+        "code": "BC006",
+        "stock": 25,
+        "fecha": "2023-06-09",
+        "id": 6
+    },
+    {
+        "title": "Pan de queso",
+        "description": "Pan artesanal con queso fundido",
+        "price": 700,
+        "thumbnail": "pan_queso.jpg",
+        "code": "BC007",
+        "stock": 18,
+        "fecha": "2023-06-09",
+        "id": 7
+    },
+    {
+        "title": "Tarta de frutas",
+        "description": "Tarta de frutas frescas de temporada",
+        "price": 1300,
+        "thumbnail": "tarta_frutas.jpg",
+        "code": "BC008",
+        "stock": 8,
+        "fecha": "2023-06-09",
+        "id": 8
+    },
+    {
+        "title": "Magdalenas de arándanos",
+        "description": "Magdalenas esponjosas con arándanos",
+        "price": 550,
+        "thumbnail": "magdalenas_arandanos.jpg",
+        "code": "BC009",
+        "stock": 22,
+        "fecha": "2023-06-09",
+        "id": 9
+    },
+    {
+        "title": "Pan de plátano",
+        "description": "Pan dulce de plátano y nueces",
+        "price": 650,
+        "thumbnail": "pan_platano.jpg",
+        "code": "BC010",
+        "stock": 16,
+        "fecha": "2023-06-09",
+        "id": 10
+    },
+    {
+        "title": "Palmera de chocolate",
+        "description": "Palmera de hojaldre con cobertura de chocolate",
+        "price": 400,
+        "thumbnail": "palmera_chocolate.jpg",
+        "code": "BC011",
+        "stock": 35,
+        "fecha": "2023-06-09",
+        "id": 11
+    }
+]
